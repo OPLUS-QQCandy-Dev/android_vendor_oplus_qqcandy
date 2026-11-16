@@ -1,0 +1,530 @@
+//
+// Automatically generated file. DO NOT MODIFY
+//
+
+soong_namespace {
+    imports: [
+        "device/oplus/qqcandy",
+        "vendor/oplus/mt6895-common",
+        "hardware/mediatek",
+        "hardware/mediatek/libmtkperf_client",
+        "hardware/oplus",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "gc02m1_mipi_raw_21143_IdxMgr",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/mt6895/gc02m1_mipi_raw_21143_IdxMgr.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6895",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "gc02m1_mipi_raw_21143_tuning",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/mt6895/gc02m1_mipi_raw_21143_tuning.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libmtkcam_ulog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6895",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "imx355_mipi_raw_21143_IdxMgr",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/mt6895/imx355_mipi_raw_21143_IdxMgr.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6895",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "imx355_mipi_raw_21143_tuning",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/mt6895/imx355_mipi_raw_21143_tuning.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libmtkcam_ulog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6895",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "ov64b_mipi_raw_22801_IdxMgr",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/mt6895/ov64b_mipi_raw_22801_IdxMgr.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6895",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "ov64b_mipi_raw_22801_tuning",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/mt6895/ov64b_mipi_raw_22801_tuning.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libmtkcam_ulog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6895",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "s5k3p9sp_mipi_raw_21143_IdxMgr",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/mt6895/s5k3p9sp_mipi_raw_21143_IdxMgr.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6895",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "s5k3p9sp_mipi_raw_21143_tuning",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/mt6895/s5k3p9sp_mipi_raw_21143_tuning.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libmtkcam_ulog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6895",
+    prefer: true,
+    device_specific: true,
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_ae_ParameterDB_ae_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/ae/ParameterDB_ae.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6895/ParameterDB_ae.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_af_ParameterDB_af_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/af/ParameterDB_af.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6895/ParameterDB_af.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_awb_ParameterDB_awb_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/awb/ParameterDB_awb.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6895/ParameterDB_awb.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_awbsync_ParameterDB_awbsync_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/awbsync/ParameterDB_awbsync.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/mt6895/ParameterDB_awbsync.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_feature_ParameterDB_feature_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/feature/ParameterDB_feature.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6895/ParameterDB_feature.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_flash_ParameterDB_flash_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/flash/ParameterDB_flash.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/flash/mt6895/ParameterDB_flash.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_flashcali_ParameterDB_flashcali_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/flashcali/ParameterDB_flashcali.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/mt6895/ParameterDB_flashcali.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_ParameterDB_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/ParameterDB.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/ParameterDB.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_pd_ParameterDB_pd_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/pd/ParameterDB_pd.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/pd/mt6895/ParameterDB_pd.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_pipeline_ParameterDB_pipeline_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/pipeline/ParameterDB_pipeline.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6895/ParameterDB_pipeline.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_tone_ParameterDB_tone_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tone/ParameterDB_tone.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6895/ParameterDB_tone.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_gc02m1_mipi_raw_21143_ISP_mapping_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21143/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21143/mt6895/ISP_mapping.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_gc02m1_mipi_raw_21143_ISP_param_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21143/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21143/mt6895/ISP_param.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_imx355_mipi_raw_21143_ISP_mapping_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx355_mipi_raw_21143/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx355_mipi_raw_21143/mt6895/ISP_mapping.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_imx355_mipi_raw_21143_ISP_param_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx355_mipi_raw_21143/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx355_mipi_raw_21143/mt6895/ISP_param.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ov64b_mipi_raw_22801_ISP_mapping_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov64b_mipi_raw_22801/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov64b_mipi_raw_22801/mt6895/ISP_mapping.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ov64b_mipi_raw_22801_ISP_param_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov64b_mipi_raw_22801/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov64b_mipi_raw_22801/mt6895/ISP_param.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_s5k3p9sp_mipi_raw_21143_ISP_mapping_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21143/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21143/mt6895/ISP_mapping.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_s5k3p9sp_mipi_raw_21143_ISP_param_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21143/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21143/mt6895/ISP_param.db",
+}
+
+install_symlink {
+    name: "odm_lib64_gc02m1_mipi_raw_21143_IdxMgr_so",
+    device_specific: true,
+    installed_location: "lib64/gc02m1_mipi_raw_21143_IdxMgr.so",
+    symlink_target: "/odm/lib64/mt6895/gc02m1_mipi_raw_21143_IdxMgr.so",
+}
+
+install_symlink {
+    name: "odm_lib64_gc02m1_mipi_raw_21143_tuning_so",
+    device_specific: true,
+    installed_location: "lib64/gc02m1_mipi_raw_21143_tuning.so",
+    symlink_target: "/odm/lib64/mt6895/gc02m1_mipi_raw_21143_tuning.so",
+}
+
+install_symlink {
+    name: "odm_lib64_imx355_mipi_raw_21143_IdxMgr_so",
+    device_specific: true,
+    installed_location: "lib64/imx355_mipi_raw_21143_IdxMgr.so",
+    symlink_target: "/odm/lib64/mt6895/imx355_mipi_raw_21143_IdxMgr.so",
+}
+
+install_symlink {
+    name: "odm_lib64_imx355_mipi_raw_21143_tuning_so",
+    device_specific: true,
+    installed_location: "lib64/imx355_mipi_raw_21143_tuning.so",
+    symlink_target: "/odm/lib64/mt6895/imx355_mipi_raw_21143_tuning.so",
+}
+
+install_symlink {
+    name: "odm_lib64_ov64b_mipi_raw_22801_IdxMgr_so",
+    device_specific: true,
+    installed_location: "lib64/ov64b_mipi_raw_22801_IdxMgr.so",
+    symlink_target: "/odm/lib64/mt6895/ov64b_mipi_raw_22801_IdxMgr.so",
+}
+
+install_symlink {
+    name: "odm_lib64_ov64b_mipi_raw_22801_tuning_so",
+    device_specific: true,
+    installed_location: "lib64/ov64b_mipi_raw_22801_tuning.so",
+    symlink_target: "/odm/lib64/mt6895/ov64b_mipi_raw_22801_tuning.so",
+}
+
+install_symlink {
+    name: "odm_lib64_s5k3p9sp_mipi_raw_21143_IdxMgr_so",
+    device_specific: true,
+    installed_location: "lib64/s5k3p9sp_mipi_raw_21143_IdxMgr.so",
+    symlink_target: "/odm/lib64/mt6895/s5k3p9sp_mipi_raw_21143_IdxMgr.so",
+}
+
+install_symlink {
+    name: "odm_lib64_s5k3p9sp_mipi_raw_21143_tuning_so",
+    device_specific: true,
+    installed_location: "lib64/s5k3p9sp_mipi_raw_21143_tuning.so",
+    symlink_target: "/odm/lib64/mt6895/s5k3p9sp_mipi_raw_21143_tuning.so",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_top_control_data_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/top_control_data.db",
+    symlink_target: "/vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/top_control_data.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_default_sensor_ISP_mapping_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db",
+    symlink_target: "/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_mapping.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_default_sensor_ISP_param_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db",
+    symlink_target: "/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_param.db",
+}
+
+install_symlink {
+    name: "vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_info_db",
+    soc_specific: true,
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db",
+    symlink_target: "/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6895/ISP_info.db",
+}
+
+// OPLUS AW8697 richtap vibrator stack (stock prebuilt HAL).
+cc_prebuilt_binary {
+    name: "vendor.oplus.hardware.vibrator-service.qqcandy",
+    stem: "vendor.oplus.hardware.vibrator-service",
+    owner: "oplus",
+    srcs: [
+        "proprietary/odm/bin/hw/vendor.oplus.hardware.vibrator-service",
+    ],
+    device_specific: true,
+    relative_install_path: "hw",
+    check_elf_files: false,
+    compile_multilib: "64",
+    required: [
+        "libaacvibrator.qqcandy",
+        "libtfavib.qqcandy",
+        "vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.qqcandy",
+        "vendor.oplus.hardware.vibrator-V1-ndk_platform.qqcandy",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "libaacvibrator.qqcandy",
+    stem: "libaacvibrator",
+    owner: "oplus",
+    srcs: [
+        "proprietary/odm/lib64/libaacvibrator.so",
+    ],
+    device_specific: true,
+    check_elf_files: false,
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+}
+
+cc_prebuilt_library_shared {
+    name: "libtfavib.qqcandy",
+    stem: "libtfavib",
+    owner: "oplus",
+    srcs: [
+        "proprietary/odm/lib64/libtfavib.so",
+    ],
+    device_specific: true,
+    check_elf_files: false,
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.qqcandy",
+    owner: "oplus",
+    stem: "vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.qqcandy",
+    srcs: [
+        "proprietary/odm/lib64/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so",
+    ],
+    device_specific: true,
+    check_elf_files: false,
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.oplus.hardware.vibrator-V1-ndk_platform.qqcandy",
+    owner: "oplus",
+    stem: "vendor.oplus.hardware.vibrator-V1-ndk_platform.qqcandy",
+    srcs: [
+        "proprietary/odm/lib64/vendor.oplus.hardware.vibrator-V1-ndk_platform.so",
+    ],
+    device_specific: true,
+    check_elf_files: false,
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+}

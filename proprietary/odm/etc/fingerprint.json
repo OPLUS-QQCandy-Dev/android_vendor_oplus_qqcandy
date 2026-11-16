@@ -1,0 +1,24 @@
+[
+    {
+        "project":"22801",
+        "name":"default",
+        "product":"PGZ110",
+        "device":"OP5911",
+        "model":"PGZ110",
+        "first_api_level":"31",
+        "manufacturer": "OnePlus",
+        "brand": "OnePlus",
+        "base_oses": [
+            {
+              "13": "OnePlus/PGZ110/OP5911:13/TP1A.220905.001/S.d51e22-189:user/release-keys",
+              "14": "OnePlus/PGZ110/OP5911:14/UKQ1.230924.001/S.15470d5_1-1:user/release-keys"
+            }
+        ],
+        "emer_base_oses": [
+            {
+              "13": "OnePlus/PGZ110/OP5911:13/TP1A.220905.001/S.d51e22-189:user/release-keys",
+              "14": "OnePlus/PGZ110/OP5911:14/UKQ1.230924.001/S.15470d5_1-1:user/release-keys"
+            }
+        ]
+    }
+]
