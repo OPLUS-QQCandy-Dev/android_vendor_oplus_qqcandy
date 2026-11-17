@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/qqcandy/proprietary/odm/etc/cust_pq_21143_tianma.xml:$(TARGET_COPY_OUT_ODM)/etc/cust_pq_21143_tianma.xml \
     vendor/oplus/qqcandy/proprietary/odm/etc/boe_nt37800_2048_nt37800_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/boe_nt37800_2048_nt37800_eyeprotect_data.xml \
     vendor/oplus/qqcandy/proprietary/odm/etc/mipc_device_config.xml:$(TARGET_COPY_OUT_ODM)/etc/mipc_device_config.xml \
-    vendor/oplus/qqcandy/proprietary/odm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_ODM)/etc/NOTICE.xml.gz \
     vendor/oplus/qqcandy/proprietary/odm/etc/MNL_Config.xml:$(TARGET_COPY_OUT_ODM)/etc/MNL_Config.xml \
     vendor/oplus/qqcandy/proprietary/odm/etc/sys_lom_config_list.xml:$(TARGET_COPY_OUT_ODM)/etc/sys_lom_config_list.xml \
     vendor/oplus/qqcandy/proprietary/odm/etc/power_profile/power_monitor_config.xml:$(TARGET_COPY_OUT_ODM)/etc/power_profile/power_monitor_config.xml \
@@ -2432,7 +2431,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/qqcandy/proprietary/vendor/etc/default_pd_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/etc/default_pd_calibration.bin \
     vendor/oplus/qqcandy/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/oplus/qqcandy/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
-    vendor/oplus/qqcandy/proprietary/vendor/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE.xml.gz \
     vendor/oplus/qqcandy/proprietary/vendor/etc/xgf.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/xgf.cfg \
     vendor/oplus/qqcandy/proprietary/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
     vendor/oplus/qqcandy/proprietary/vendor/etc/group:$(TARGET_COPY_OUT_VENDOR)/etc/group \
