@@ -533,6 +533,6 @@ prebuilt_etc {
     name: "orms_core_config",
     src: "proprietary/odm/etc/orms/orms_core_config.xml",
     filename: "orms_core_config.xml",
-    sub_dir: "etc/orms",
+    sub_dir: "orms",
     device_specific: true,
 }
