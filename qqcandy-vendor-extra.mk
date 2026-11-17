@@ -285,7 +285,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/qqcandy/proprietary/odm/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
     vendor/oplus/qqcandy/proprietary/odm/etc/fad/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_ODM)/etc/fad/M_Attribute_AG_BMW_1.1.0.model \
     vendor/oplus/qqcandy/proprietary/odm/etc/orms/orms_permission_config.xml:$(TARGET_COPY_OUT_ODM)/etc/orms/orms_permission_config.xml \
-    vendor/oplus/qqcandy/proprietary/odm/etc/orms/orms_core_config.xml:$(TARGET_COPY_OUT_ODM)/etc/orms/orms_core_config.xml \
     vendor/oplus/qqcandy/proprietary/odm/etc/bin/gauge_authenticate:$(TARGET_COPY_OUT_ODM)/etc/bin/gauge_authenticate \
     vendor/oplus/qqcandy/proprietary/odm/etc/powerhal/powercontable.xml:$(TARGET_COPY_OUT_ODM)/etc/powerhal/powercontable.xml \
     vendor/oplus/qqcandy/proprietary/odm/etc/powerhal/power_app_cfg.xml:$(TARGET_COPY_OUT_ODM)/etc/powerhal/power_app_cfg.xml \
@@ -3471,3 +3470,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/qqcandy/proprietary/vendor/firmware/gt9896s_cfg_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v01.bin \
     vendor/oplus/qqcandy/proprietary/vendor/firmware/gt9896s_firmware_6833v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6833v01.bin \
     vendor/oplus/qqcandy/proprietary/vendor/firmware/mt6630_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v1_patch.bin
+
+PRODUCT_PACKAGES += \
+    orms_core_config
